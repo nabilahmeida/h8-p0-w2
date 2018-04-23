@@ -1,0 +1,36 @@
+1. Newton Second Law
+    STORE "masa_benda" with 600kg
+    STORE "percepatan_benda" with 2m/s2
+    STORE "resultan_gaya" without any value
+    CALCULATE "masa_benda" * "percepatan_benda"
+    SET "resultan_gaya" value with calculation result
+    DISPLAY "resultan_gaya".
+
+2. TAHUN KABISAT
+    INPUT "tahun" 
+    IF "tahun" mod 4 = 0 THEN
+        DISPLAY "tahun kabisat"
+    ELSE
+        DISPLAY "bukan tahun kabisat"
+    AND IF
+
+3. LAUNDRDY DAY 
+    STORE "pakaian" into "mesin_cuci" with 0
+    WHILE "pakaian" < 20
+    ADD "pakaian" by 1
+        IF "pakaian" = 20 THEN
+            TURN ON "mesin_cuci"
+        ELSE
+            BACK TO WHILE
+
+4. PERIKSA KUKU
+    STORE "siswa" with 40 
+    CHECK "siswa" by 1
+        IF "siswa" = "kuku_panjang" THEN
+            DISPLAY "dihukum"
+        ELSE 
+            DISPLAY "dipuji"
+        END IF
+    
+        
+            
