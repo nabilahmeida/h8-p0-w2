@@ -3,17 +3,17 @@ var bulan = 5;
 var tahun = 1945;
 
 switch(bulan) { 
-    case 1 : { console.log(hari + ' Januari ' + tahun); break;}
-    case 2 : { console.log(hari + ' Februari ' + tahun); break;}
-    case 3 : { console.log(hari + ' Maret ' + tahun); break;}
-    case 4 : { console.log(hari + ' April ' + tahun); break;}
-    case 5 : { console.log(hari + ' Mei ' + tahun); break;}
-    case 6 : { console.log(hari + ' Juni ' + tahun); break;}
-    case 7 : { console.log(hari + ' Juli ' + tahun); break;}
-    case 8 : { console.log(hari + ' Agustus ' + tahun); break;}
-    case 9 : { console.log(hari + ' September ' + tahun); break;}
-    case 10 : { console.log(hari + ' Oktober ' + tahun); break;}
-    case 11 : { console.log(hari + ' November ' + tahun); break;}
-    case 12 : { console.log(hari + ' Desember ' + tahun); break;}
-    default: { console.log('nothing');}
+    case 1 : bulan = ' Januari '; break;
+    case 2 : bulan = ' Februari '; break;
+    case 3 : bulan = ' Maret '; break;
+    case 4 : bulan = ' April '; break;
+    case 5 : bulan = ' Mei '; break;
+    case 6 : bulan = ' Juni '; break;
+    case 7 : bulan = ' Juli '; break;
+    case 8 : bulan = ' Agustus '; break;
+    case 9 : bulan = ' September '; break;
+    case 10 : bulan = ' Oktober '; break;
+    case 11 : bulan = ' November '; break;
+    case 12 : bulan = ' Desember '; break;
 }
+    console.log(hari + bulan + tahun);
