@@ -38,50 +38,50 @@
 	}
 	
 
-	//pertambahan counter 3
-	
-	var counter = 3;
-
-	while(counter <= 100){
-	    if ( counter !== 1){
-		console.log(counter + ' kelipatan ' + counter);
-		counter = counter + 2;
-	    }
-	    else{
-		console.log('""');
-		break;
-	    }
-	}
+	//pertambahan counter 2
+		var counter = -1;
+		while(counter <= 100){
+			counter = counter+2;	
+			console.log('counter sekarang : ' + counter);
+			if (counter %3 === 0 ){
+				console.log(counter + ' kelipatan ' + '3');
+			
+			}
+			else{
+				console.log('""');
+			}
+		}
 
 	//pertambahan counter 5
-
-	var counter = 6;
-
-	while(counter <= 100){
-	    if ( counter !== 1){
-	    	console.log(counter + ' kelipatan ' + counter);
-	    	counter = counter + 5;
-	    }
-	    else{
-		console.log('""');
-		break;
-	    }
-	}
+		var counter = -4;
+		while(counter <= 100){
+			counter = counter+5;	
+			console.log('counter sekarang : ' + counter);
+			if (counter %6 === 0 ){
+				console.log(counter + ' kelipatan ' + '6');
+			
+			}
+			else{
+				console.log('""');
+			}
+		}
+	
+	
+	
 
 	//pertambahan counter 10
-
-	var counter = 9;
-
-	while(counter <= 100){
-	    if ( counter !== 1){
-		console.log(counter + ' kelipatan ' + counter);
-		counter = counter + 10;
-	    }
-	    else{
-		console.log('""');
-		break;
-	    }
-	}
+		var counter = -8;
+		while(counter <= 100){
+			counter = counter+9;	
+			console.log('counter sekarang : ' + counter);
+			if (counter %10 === 0 ){
+				console.log(counter + ' kelipatan ' + '10');
+			
+			}
+			else{
+				console.log('""');
+			}
+		}
 
 
 
